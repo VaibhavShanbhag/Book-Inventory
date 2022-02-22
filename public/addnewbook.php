@@ -48,6 +48,7 @@
         border: 2px solid lightblue;
         border-radius: 20px;
         margin-top: 100px;
+        margin-bottom: 30px;
     }
 
     .container .box h3{
@@ -63,6 +64,28 @@
         padding: 3px;
         margin: 3px;
     }
+
+    .info{
+        margin: 0 80px;
+    }
+
+    .info .btnn{
+        text-decoration: none;
+        margin: 15px;
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btnn:hover{
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
+
+
 </style>
 <body>
     <div class="container">
@@ -103,8 +126,10 @@
                     </tr>
                 </form>
             </table>
-
         </div>
+    </div>
+    <div class="info">
+            <a href="index.php" class="btnn">Back</a>
     </div>
 </body>
 
