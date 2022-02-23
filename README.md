@@ -10,6 +10,7 @@
 10. Type the below commands
 
 SSH Commands:
+<br>
 sudo su
 yum update -y
 yum install httpd -y
